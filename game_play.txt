@@ -1,0 +1,26 @@
+Display main menu
+
+If "Quit Game" is pressed
+    Quit Game
+
+Elif "Start Game" pressed
+    While waiting for another player to join
+        Display "Waiting for another player"
+        
+        If another player joins
+            break
+    
+    # Play RPS to determine which player goes first
+    While both players have not chosen hands
+        Display "Choose a hand..."
+        Display choices
+
+        If player 0 chooses
+            Display "Player 0 is ready"
+        Elif player 1 chooses
+            Display "Player 1 is ready"
+
+    # Determining winner of rps
+    If p0 choice is p and p1 choice is s
+        
+ 

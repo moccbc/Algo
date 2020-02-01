@@ -1,0 +1,6 @@
+Main Menu
+- Displays the text "Algo"
+- Start game button
+- Quit game button
+
+
